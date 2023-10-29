@@ -6,35 +6,47 @@
 
 ```bash
 (kali@ kali)-C ---\'Documents\'Active
-\$ nmap -T4 -A -p- -OA Active 10.10. 10.100
-Starting Nmap 7.94( https://nmap.org ) at 2023-09-09 18:59 BST
-Nmap scan report for l0.l0.l0.l00
-Host is up (0.033s latency)
+\$ Nmap 7.94 scan initiated Sat Sep  9 18:59:38 2023 as: nmap -T4 -A -p- -Pn -oA Active 10.10.10.100
+Nmap scan report for 10.10.10.100
+Host is up (0.033s latency).
 Not shown: 65513 closed tcp ports (conn-refused)
-PORT 53/tcp STATE SERVICE open domain VERSION
-Microsoft DNS 6.1. 7601 (10815039) (Windows server 2008 R2 SPI) I
-dns-nsid: bind. version: Microsoft DNS 6.1.7601 (IDB15D39)
-Default-First-Site-Name) Default-First-Site-Name) 88/tcp 135/tcp 139/tcp
-389/tcp 445/tcp 464/tcp 593/tcp 636/tcp 3268/tcp 3269/tcp 5722/tcp
-9389/tcp 49152/tcp 49153/tcp 49154/tcp 49155/tcp 49157/tcp 49158/tcp
-49165/tcp 49168/tcp 49174/tcp open open open open open open open open
-open open open open open open open open open open open open open
-kerberos-sec Microsoft Windows Kerberos (server time: 2023-09-09
-18:øø:17Z) msrpc netbios-ssn I dap microsoft-ds? kpasswd5? ncacn http
-tcpwrapped I dap tcpwrapped msrpc mc-nmf Microsoft Windows RPC Microsoft
-Windows netbios-ssn Microsoft Windows Active Directory L DAP (Domain.
-Microsoft Windows RPC over HTTP l.ø Microsoft Windows Active Directory L
-DAP (Domain. Microsoft Windows RPC NET Message Framing active.htb,
-active.htb, Site. Site: msrpc msrpc msrpc msrpc ncacn msrpc msrpc msrpc
-msrpc http Microsoft Microsoft Microsoft Microsoft Microsoft Microsoft
-Microsoft Microsoft Microsoft Windows Windows Windows Windows Windows
-Windows Windows Windows Windows RPC RPC RPC RPC RPC over HTTP l.ø RPC
-RPC RPC RPC OS : Service Info: Host: DC; Host script results. I
-smb2-time : date: start date: 2023-09- I smb2-security-mode: 2:1:ø:
-Windows; CPE: cpe:/o:microsoft:windows server 2øø8:r2:sp1, cpe : / o
-:microsoft : windows Message signing enabled and required
-Servicedetection performed. Please report any incorrect results at https://nmap.org/submit/
-Nmap done: 1 IP address (1 host up) scanned in 100.80 seconds ]
+PORT      STATE SERVICE       VERSION
+53/tcp    open  domain        Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15D39)
+88/tcp    open  kerberos-sec  Microsoft Windows Kerberos (server time: 2023-09-09 18:00:17Z)
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp   open  ldap          Microsoft Windows Active Directory LDAP (Domain: active.htb, Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds?
+464/tcp   open  kpasswd5?
+593/tcp   open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped
+3268/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: active.htb, Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped
+5722/tcp  open  msrpc         Microsoft Windows RPC
+9389/tcp  open  mc-nmf        .NET Message Framing
+49152/tcp open  msrpc         Microsoft Windows RPC
+49153/tcp open  msrpc         Microsoft Windows RPC
+49154/tcp open  msrpc         Microsoft Windows RPC
+49155/tcp open  msrpc         Microsoft Windows RPC
+49157/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+49158/tcp open  msrpc         Microsoft Windows RPC
+49165/tcp open  msrpc         Microsoft Windows RPC
+49168/tcp open  msrpc         Microsoft Windows RPC
+49174/tcp open  msrpc         Microsoft Windows RPC
+Service Info: Host: DC; OS: Windows; CPE: cpe:/o:microsoft:windows_server_2008:r2:sp1, cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2023-09-09T18:01:11
+|_  start_date: 2023-09-09T17:58:20
+| smb2-security-mode: 
+|   2:1:0: 
+|_    Message signing enabled and required
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Sep  9 19:01:19 2023 -- 1 IP address (1 host up) scanned in 100.80 seconds
 '''
  
 
