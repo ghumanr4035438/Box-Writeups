@@ -7,7 +7,8 @@ Paths: Crest CRT, Intro to Zephyr, AD 101
 
 10.10.10.100
 
-```bash(kali@ kali)-C ---\'Documents
+```bash
+(kali@ kali)-C ---\'Documents
 \'Active \$ nmap -T4 -A -p- -OA Active 10.10. 10.100 Starting Nmap 7.94
 ( https://nmap.org ) at 2023-09-09 18:59 SST Nmap scan report for
 lø.lø.lø.løø Host is up (ø.ø33s latency) Not shown: 65513 closed tcp
