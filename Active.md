@@ -2,14 +2,16 @@
 
 ## Paths: Crest CRT, Intro to Zephyr, AD 101
 
-10.10.10.100
+### 10.10.10.100
 
 ```bash
-(kali@ kali)-C ---\'Documents
-\'Active \$ nmap -T4 -A -p- -OA Active 10.10. 10.100 Starting Nmap 7.94
-( https://nmap.org ) at 2023-09-09 18:59 SST Nmap scan report for
-lø.lø.lø.løø Host is up (ø.ø33s latency) Not shown: 65513 closed tcp
-ports (conn-refused) PORT 53/tcp STATE SERVICE open domain VERSION
+(kali@ kali)-C ---\'Documents\'Active
+\$ nmap -T4 -A -p- -OA Active 10.10. 10.100
+Starting Nmap 7.94( https://nmap.org ) at 2023-09-09 18:59 BST
+Nmap scan report for l0.l0.l0.l00
+Host is up (0.033s latency)
+Not shown: 65513 closed tcp ports (conn-refused)
+PORT 53/tcp STATE SERVICE open domain VERSION
 Microsoft DNS 6.1. 7601 (10815039) (Windows server 2008 R2 SPI) I
 dns-nsid: bind. version: Microsoft DNS 6.1.7601 (IDB15D39)
 Default-First-Site-Name) Default-First-Site-Name) 88/tcp 135/tcp 139/tcp
@@ -30,10 +32,9 @@ Windows Windows Windows Windows RPC RPC RPC RPC RPC over HTTP l.ø RPC
 RPC RPC RPC OS : Service Info: Host: DC; Host script results. I
 smb2-time : date: start date: 2023-09- I smb2-security-mode: 2:1:ø:
 Windows; CPE: cpe:/o:microsoft:windows server 2øø8:r2:sp1, cpe : / o
-:microsoft : windows Message signing enabled and required Service
-detection performed. Please report any incorrect results at
-https://nmap.org/submit/ Nmap done: 1 IP address (1 host up) scanned in
-1øø.8ø seconds ]
+:microsoft : windows Message signing enabled and required
+Servicedetection performed. Please report any incorrect results at https://nmap.org/submit/
+Nmap done: 1 IP address (1 host up) scanned in 100.80 seconds ]
 '''
  
 
