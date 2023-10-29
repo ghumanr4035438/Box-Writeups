@@ -1,9 +1,6 @@
 # Active
 
-09 September 2023
-
-
-Paths: Crest CRT, Intro to Zephyr, AD 101
+## Paths: Crest CRT, Intro to Zephyr, AD 101
 
 10.10.10.100
 
