@@ -5,8 +5,8 @@
 ### 10.10.10.100
 
 ```bash
-(kali@ kali)-C ---\'Documents\'Active
-\$ Nmap 7.94 scan initiated Sat Sep  9 18:59:38 2023 as: nmap -T4 -A -p- -Pn -oA Active 10.10.10.100
+(kali@ kali)-[~Documents/Active}
+$ Nmap 7.94 scan initiated Sat Sep  9 18:59:38 2023 as: nmap -T4 -A -p- -Pn -oA Active 10.10.10.100
 Nmap scan report for 10.10.10.100
 Host is up (0.033s latency).
 Not shown: 65513 closed tcp ports (conn-refused)
