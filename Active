@@ -8,7 +8,7 @@ Paths: Crest CRT, Intro to Zephyr, AD 101
 
 10.10.10.100
 
-![Machine generated alternative text: (kali@ kali)-C ---\'Documents
+```bash(kali@ kali)-C ---\'Documents
 \'Active \$ nmap -T4 -A -p- -OA Active 10.10. 10.100 Starting Nmap 7.94
 ( https://nmap.org ) at 2023-09-09 18:59 SST Nmap scan report for
 lø.lø.lø.løø Host is up (ø.ø33s latency) Not shown: 65513 closed tcp
@@ -36,9 +36,8 @@ Windows; CPE: cpe:/o:microsoft:windows server 2øø8:r2:sp1, cpe : / o
 :microsoft : windows Message signing enabled and required Service
 detection performed. Please report any incorrect results at
 https://nmap.org/submit/ Nmap done: 1 IP address (1 host up) scanned in
-1øø.8ø seconds ](media/image1.png){width="10.833333333333334in"
-height="7.197916666666667in"}
-
+1øø.8ø seconds ]
+'''
  
 
  
