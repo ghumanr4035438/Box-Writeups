@@ -2,7 +2,6 @@
 
 09 September 2023
 
-18:57
 
 Paths: Crest CRT, Intro to Zephyr, AD 101
 
